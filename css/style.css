@@ -1,0 +1,135 @@
+body {
+	width: 100%;
+	background-color: rgb(240, 240, 240);
+	font-family: 'Quicksand', sans-serif;
+}
+
+#head {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 3px solid 25, 56, 78;
+	background-color: rgb(25, 56, 78);
+	color: rgb(180, 180, 180);
+}
+
+#head img {
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+h1 {
+	width: 100%;
+	color: rgb(240, 240, 240);
+	background-color: rgba(25, 56, 78, .5);
+	font-family: 'The Girl Next Door', cursive;
+	font-size: 2em;
+	padding:0;
+	position: absolute;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 1em;
+	color: rgb(25, 56, 78);
+}
+
+#container {
+	width: 60%;
+	margin: 0 auto;
+	text-align: left;
+	background-color: white;
+	padding: 1%;
+	border-radius: 25px;
+	margin-top: 1%;
+}
+
+#container p:last-of-type {
+	border-bottom: 3px solid rgb(25, 56, 78);
+	padding-bottom: 2%;
+}
+
+#container h4 {
+	text-align: center;
+	color: rgb(25, 56, 78);
+}
+
+.gallery {
+	width: 100%;
+	margin: 10px auto;
+	border-radius: 30px;
+}
+
+#plaza {
+	width: 100%;
+	padding-bottom: 15px;
+	border-radius: 30px;
+}
+
+#food {
+	width: 30%;
+	float: right;
+	margin: 3px;
+	border-radius: 30px;
+}
+
+#nav {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 20px;
+	padding: 1px;
+}
+
+#links {
+	font-size: 1.2em;
+	padding-left: 0;
+	text-align: center;
+}
+
+#links li {
+	display: inline;
+	padding: 10px;
+	text-align: center;
+}
+
+#links a {
+	text-decoration: none;
+}
+
+#links a li {
+	text-decoration: none;
+	list-style-type: none;
+	color: rgb(25, 56, 78);
+}
+
+#links a li:hover {
+	color: black;
+	font-style: italic;
+	padding-top: 1px;
+	border-top: 1px solid rgb(25, 56, 78);
+}
+
+#resources {
+	margin: 20px auto;
+	width: 40%;
+}
+
+#resources a {
+	display: block;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+}
+
+footer {
+	width: 100%;
+	background-color: rgb(25, 56, 78);
+	color: rgb(180, 180, 180);
+	text-align: center;
+}
+
+footer p {
+	padding: 4px;
+}
